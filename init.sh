@@ -46,4 +46,3 @@ cd ..
 make ./ADDAPT
 
 mv .ADDAPT/libs/mod_antiddos.so /usr/lib/apache2/modules/
-
