@@ -37,8 +37,11 @@ sleep 1
 read -p "Do you want to continue(Y/n)?" confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 
 sleep 1
+sudo apt install apache2-dev
+sudo apt-get install libhiredis-dev
+sudo apt install g++
 
-git clone https://github.com/5ku11Cru5h3r/ADDAPT.git
+cd ..
 
 make ./ADDAPT
 
