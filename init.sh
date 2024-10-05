@@ -27,7 +27,7 @@ PND
 cat << TTY
 ||Paritranay sadhunam vinashaya chatuskritam dharmsansthapanarthay sambahvani yuge yuge||
 
-# Project by Yash,Amit,Krati and Yashvardhan
+# Project by Yash, Rohit and Yashvardhan
 # Made to kill all the ddos with LOVE....LOL!!!
 
 TTY
