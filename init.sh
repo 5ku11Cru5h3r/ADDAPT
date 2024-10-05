@@ -27,7 +27,7 @@ PND
 cat << TTY
 ||Paritranay sadhunam vinashaya chatuskritam dharmsansthapanarthay sambahvani yuge yuge||
 
-# Project by Yash,Amit,Krati and Yashvardhan
+# Project by Yash, Rohit and Yashvardhan
 # Made to kill all the ddos with LOVE....LOL!!!
 
 TTY
@@ -37,8 +37,11 @@ sleep 1
 read -p "Do you want to continue(Y/n)?" confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 
 sleep 1
+sudo apt install apache2-dev
+sudo apt-get install libhiredis-dev
+sudo apt install g++
 
-git clone https://github.com/5ku11Cru5h3r/ADDAPT.git
+cd ..
 
 make ./ADDAPT
 
